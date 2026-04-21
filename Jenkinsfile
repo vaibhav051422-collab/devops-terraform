@@ -7,6 +7,9 @@ pipeline {
     environment {
         AWS_REGION = "ap-south-1"
     }
+    tools {
+    terraform 'terraform'
+}
 
 
     stages {
